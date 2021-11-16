@@ -1,13 +1,3 @@
-/* main body style of webpage */
-  /* Set all html elements with border-box sizing */
-* {
-    box-sizing: border-box;
-}  
-
 .background {
-    background-image: url('./Images/background.jpg');
-    background-color: #8ECAE6;
+  background-image: url('./images/background.jpg');
 }
-
-/* form style */
-/* card style */

@@ -6,7 +6,6 @@ const form = document
   .getElementById("form")
   .addEventListener("submit", handleSubmit);
 
-<<<<<<< HEAD
 // const oMDbAPI = ('http://www.omdbapi.com/?t=The+Princess+Bride=&apikey=d6908eb0')
 // // http://www.omdbapi.com/?apikey=582a980c&t=dune&y=2021
 
@@ -26,7 +25,6 @@ fetch("https://movie-database-imdb-alternative.p.rapidapi.com/?s=Science%20Ficti
 .catch(err => {
 	console.error(err);
 });
-=======
 // submit event for user input, including fetch
 function handleSubmit(e) {
   e.preventDefault();
@@ -49,4 +47,3 @@ function renderCard(data) {
     const director = document.getElementById('director').innerText = data.Director;
 }
 
->>>>>>> 289ae671b21a5af7dff3839a58aaa057a4e0f92a
