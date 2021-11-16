@@ -41,9 +41,9 @@ function handleSubmit(e) {
 function renderCard(data) {
     console.log(data)
     const poster = document.getElementById('moviePoster').src = data.Poster;
-    const synopsis = document.getElementById('synopsis').innerText = data.Plot;
-    const year = document.getElementById('year').innerText = data.Year;
-    const cast = document.getElementById('cast').innerText = data.Actors;
-    const director = document.getElementById('director').innerText = data.Director;
+    const synopsis = document.getElementById('synopsis').innerText = `Plot: ${data.Plot}`;
+    const year = document.getElementById('year').innerText = `Year: ${data.Year}`;
+    const cast = document.getElementById('cast').innerText = `Actors: ${data.Actors}`;
+    const director = document.getElementById('director').innerText = `Director: ${data.Director}`;
 }
 
