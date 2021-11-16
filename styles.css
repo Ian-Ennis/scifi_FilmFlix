@@ -1,20 +1,17 @@
 .background {
   background: url('./images/background.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 150%;
+  background-size: cover;
   background-color: #8ECAE6;
   text-align: center;
 }
 
-#image_header {
-  width: 100;
-  mix-blend-mode: overlay;
-}
-
-h1 {
+header h1 {
   color: #023047;
   font-family: fantasy;
   font-weight: 900;
+  font-size: 75px;
+  text-align: center;
 }
 
 p {
