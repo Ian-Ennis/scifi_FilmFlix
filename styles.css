@@ -1,3 +1,16 @@
 .background {
-  background-image: url('./images/background.jpg');
+  background: url('./images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 125%;
+  background-color: #8ECAE6;
+  text-align: center;
+}
+
+#image_header {
+  width: 100;
+  mix-blend-mode: overlay;
+}
+
+h1 {
+  color: #023047;
 }
