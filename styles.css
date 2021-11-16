@@ -1,0 +1,13 @@
+/* main body style of webpage */
+  /* Set all html elements with border-box sizing */
+* {
+    box-sizing: border-box;
+}  
+
+.background {
+    background-image: url('./Images/background.jpg');
+    background-color: #8ECAE6;
+}
+
+/* form style */
+/* card style */
