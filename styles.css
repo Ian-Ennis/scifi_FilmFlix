@@ -13,4 +13,23 @@
 
 h1 {
   color: #023047;
+  font-family: fantasy;
+  font-weight: 900;
+}
+
+p {
+  color: #fff;
+  font-weight: 700;
+}
+
+.formContainer {
+  color: #023047;
+  font-weight: 800;
+  font-family: fantasy;
+}
+
+.container img {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 #023047, 0 6px 20px 0 #023047;
+  text-align: center;
 }
