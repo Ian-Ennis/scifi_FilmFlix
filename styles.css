@@ -81,3 +81,15 @@ h4 {
 
 /* styling below for the matching game */
 
+/* first set */
+
+#card_1, #card_2, #card_3, #card_4 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.firstSet {
+  {margin: 0 -5px;}
+}
