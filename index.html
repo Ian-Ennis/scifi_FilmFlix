@@ -1,5 +1,6 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Movie</title>
     <link rel="stylesheet" href="./styles.css">
@@ -8,27 +9,48 @@
 
 <body class="background">
   <header>
+    <!-- <title>SciFi Film Lookup</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <div id="image_header">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.I35X9AvXegeBoB3HNrDLTgHaHa%26pid%3DApi&f=1"
+            alt="banner" style='width: 25%'>
+    </div> -->
     <h1>SciFi & Fantasy Film dB</h1>
     </header>
     <div class="formContainer">
         <form class="inputMovieForm" id="form">
             <label for="nameOfFilm">Name of Film:</label>
-            <input type="text" id="movieInput" name="movieName"/>
-            <label for="year">Year:</label>
-            <input type ="text" id="yearInput" name="movieYear"/>
+            <input type="text" id="movieInput" name="movieName" />
+            <label for="year">Year (optional):</label>
+            <input type="text" id="yearInput" name="movieYear" />
             <input type="submit" value="Search">
-            </form>
+        </form>
     </div>
+    <!-- <div id='card'>
+        <div class='container'>
+            <h4><b>Movie Title</b></h4>
+            <img src='./images/demo-image.jpg' alt='avatar' style='width: 10%' id="moviePoster">
+            <p id='plot'>Movie Synopsis</p>
+            <p id='releaseDate'>Release Date:</p>
+            <p id='cast'>Cast</p>
+            <p id='director'>Director(s)</p>
+        </div>
+    </div> -->
 <div id="card">
   <div class="container">
     <!-- <h4><b>Movie Title</b></h4> -->
     <img src='./images/logo2_image.jpg' alt='avatar' width='200px' id="moviePoster">
       <p id='synopsis'>Movie Synopsis</p>
-      <p id='year'>Year</p>
+      <p id='year'>Release Date:</p>
       <p id='cast'>Cast</p>
-      <p id='director'>Director</p>
+      <p id='director'>Director(s):</p>
   </div>
 </div>
 </body>
+
 </html>
 
