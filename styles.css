@@ -10,11 +10,12 @@
   background-color: #8ECAE6;
 }
 
+/* styling below for the search feature of the webpage */
 header h1 {
   color: #023047;
   font-family: fantasy;
   font-weight: 900;
-  font-size: 75px;
+  font-size: 65px;
   text-align: center;
 }
 
@@ -24,6 +25,13 @@ h4 {
   color: #023047;
   font-weight: 900;
 }
+
+#card {
+  position: absolute;
+  top: 40%;
+  left: 42%;
+}
+
 .flip-card {
   background-color: transparent;
   width: 200px;
@@ -59,7 +67,7 @@ h4 {
 }
 
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: #90e0ef;
   color: #023047;
   transform: rotateY(180deg);
 }
@@ -70,3 +78,6 @@ h4 {
   font-family: fantasy;
   text-align: center;
 }
+
+/* styling below for the matching game */
+
