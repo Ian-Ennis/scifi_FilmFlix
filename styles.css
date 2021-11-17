@@ -25,6 +25,13 @@ h4 {
   color: #023047;
   font-weight: 900;
 }
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
 
 #card {
   position: absolute;
