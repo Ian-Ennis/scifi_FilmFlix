@@ -3,11 +3,11 @@
   rgba(0, 0, 0, 0.1),
   rgba(0, 0, 0, 0.1)), 
   url('./images/background.jpg');
-  height: 100vh;
+  height: 125vh;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #8ECAE6;
-  text-align: center;
 }
 
 header h1 {
@@ -18,18 +18,30 @@ header h1 {
   text-align: center;
 }
 
-p {
-  color: #fff;
-  font-weight: 700;
+h4 {
+  font-family: fantasy;
+  text-align: center;
+  color: #023047;
+  font-weight: 900;
+}
+
+.container {
+  color: #ffea00;
+  font-weight: 900;
+  width: 300px;
+  padding: 2px 16px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 #ffe8d6;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
 }
 
 .formContainer {
   color: #023047;
   font-weight: 800;
   font-family: fantasy;
-}
-
-.container img {
-  box-shadow: 0 4px 8px 0 #023047, 0 6px 20px 0 #023047;
   text-align: center;
 }
