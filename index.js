@@ -1,6 +1,3 @@
-// API key is apikey=582a980c&
-// oMDb url with title and year parameters"http://www.omdbapi.com/?apikey=582a980c&t=dune&y=2021";
-
 // form variables
 const form = document
   .getElementById("form")
