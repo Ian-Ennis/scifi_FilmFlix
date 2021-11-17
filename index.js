@@ -37,16 +37,19 @@ function renderPicPlotRelease(tMDBdata) {
 function renderDirectorCast(oMDBdata) {
   console.log(oMDBdata);
 
-  let cast = document.getElementById('cast').innerText = `Cast: ${oMDBdata.Actors}`
-  let director = document.getElementById('director').innerText = `Director(s): ${oMDBdata.Director}`
+  const cast = document.getElementById('cast').innerText = `Cast: ${oMDBdata.Actors}`
+  const director = document.getElementById('director').innerText = `Director(s): ${oMDBdata.Director}`
 
   if (cast === `Cast: undefined`) {
-    cast.style.display = "none";
+    const cast = document.getElementById('cast').innerText = ``;
   }
 
+  // ***There isn’t enough life on this ice cube to fill a space cruiser. Please refine your search!***
+
   if (director === `Director(s): undefined`) {
-    director.style.display = "none";
-  }
+   const director = document.getElementById('director').innerText = `*** Err... I'm sorry, Dave. I'm afraid I can't do that. (Please refine your search for better information) *** \n
+   -Hal`;
+  } 
 }
 
 
