@@ -42,6 +42,16 @@ color: #fff;
 line-height: 2em;
 }
 
+p {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 #000;
+  transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 5px; 
+  background-color: #1b263b;
+  margin-right: 50em;
+}
+
 /* .flip-card-inner {
   position: relative;
   width: 100%;
@@ -88,8 +98,8 @@ line-height: 2em;
 .matching-game {
   width: 400px;
   height: 400px;
-  margin-top: 5em;
-  margin-left: 40em;
+  margin-top: 7em;
+  margin-left: 50em;
   display: flex;
   flex-wrap: wrap;
 }
