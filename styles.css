@@ -1,7 +1,7 @@
 * {
-  padding: auto;
-  margin: auto;
   box-sizing: border-box;
+  margin: 10px;
+  padding: auto;
 }
 
 .background {
@@ -10,10 +10,12 @@
   rgba(0, 0, 0, 0.1)), 
   url('./images/background.jpg');
   height: 125vh;
+  min-height: 500px;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #8ECAE6;
+  background-color: #fff;
 }
 
 /* styling below for the search feature of the webpage */
@@ -25,27 +27,22 @@ header h1 {
   text-align: center;
 }
 
-h4 {
-  font-family: fantasy;
-  text-align: center;
-  color: #023047;
-  font-weight: 900;
-}
-.flip-card {
+/* .flip-card {
   background-color: transparent;
   width: 200px;
   height: 300px;
   border: 1px solid #fff;
   perspective: 1000px;
-}
+} */
 
 #card {
-  position: absolute;
-  top: 40%;
-  left: 42%;
+position: absolute;
+top: 35%;
+color: #fff;
+line-height: 2em;
 }
 
-.flip-card-inner {
+/* .flip-card-inner {
   position: relative;
   width: 100%;
   height: 100%;
@@ -53,13 +50,13 @@ h4 {
   line-height: 2em;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-}
+} */
 
-.flip-card:hover .flip-card-inner {
+/* .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
-}
+} */
 
-.flip-card-front, .flip-card-back {
+/* .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -70,28 +67,29 @@ h4 {
 .flip-card-front {
   background-color: #bbb;
   color: black;
-}
+} */
 
-.flip-card-back {
+/* .flip-card-back {
   background-color: #90e0ef;
   color: #023047;
   transform: rotateY(180deg);
-}
+} */
 
 .formContainer {
-  color: #023047;
-  font-weight: 800;
-  font-family: fantasy;
   text-align: center;
+  padding: auto;
+  color: #fff;
+  font-weight: 900;
+  font-family: fantasy;
 }
 
 /* styling below for the matching game */
 
 .matching-game {
-  width: 640px;
-  height: 640px;
-  margin-top: 30em;
-  margin-left: 24em;
+  width: 400px;
+  height: 400px;
+  margin-top: 5em;
+  margin-left: 40em;
   display: flex;
   flex-wrap: wrap;
 }
@@ -101,7 +99,6 @@ h4 {
   height: calc(33.333% - 10px);
   margin: 5px;
   position: relative;
-  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
   transform: scale(1);
 }
 
