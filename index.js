@@ -31,7 +31,7 @@ function handleSubmit(e) {
       const director = document.getElementById('director').innerText = `Director(s): ${data.Director}`;
 
       if (poster === undefined) {
-        const poster = document.getElementById("moviePoster").src = ``;
+        const poster = document.getElementById("moviePoster").src = `https://i.pinimg.com/550x/cb/b8/fc/cbb8fc5693e2d8560c5e8e89a728d811.jpg`;
         const overview = document.getElementById("overview").innerText = ``;
       }
       if (year === `Year: undefined`) {
