@@ -43,13 +43,14 @@ line-height: 2em;
 }
 
 p {
+  width: 246px;
   text-align: center;
   box-shadow: 0 4px 8px 0 #000;
   transition: 0.3s;
   transition: 0.3s;
   border-radius: 5px; 
   background-color: #1b263b;
-  margin-right: 50em;
+  margin-right: 70em;
 }
 
 /* .flip-card-inner {
@@ -99,9 +100,10 @@ p {
   width: 400px;
   height: 400px;
   margin-top: 7em;
-  margin-left: 50em;
+  margin-left: 40em;
   display: flex;
   flex-wrap: wrap;
+  perspective: 1000px;
 }
 
 .card-game {
@@ -110,6 +112,8 @@ p {
   margin: 5px;
   position: relative;
   transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform .5s;
 }
 
 .card-game:active {
@@ -129,4 +133,9 @@ p {
   position: absolute;
   border-radius: 5px;
   background: #fff;
+  backface-visibility: hidden;
 }
+
+.front-face {
+  transform: rotateY(180deg);
+};
