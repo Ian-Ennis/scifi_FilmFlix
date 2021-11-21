@@ -9,8 +9,8 @@
 
 <body class="background">
 
-  <header>
-    <h1>SciFi & Fantasy Film dB / Matching Game</h1>
+    <header>
+        <h1>SciFi & Fantasy Film dB / Matching Game</h1>
     </header>
 
     <div class="formContainer">
@@ -22,23 +22,25 @@
             <input type="submit" value="Search">
         </form>
     </div>
-  
-<div id="card">  
-    <img src='./images/logo2_image.jpg' alt='avatar' width='250px' height='325px' id="moviePoster">  
-    <p id='synopsis'>Movie Synopsis:</p>
-    <p id='year'>Release Date:</p>
-    <p id='cast'>Cast:</p>
-    <p id='director'>Director(s):</p>     
-</div>
 
-<div class='trailer'>
-    <img src='./images/theater-seats.jpeg' alt='image of theater seats' width='800px'>
-</div>    
+    <div id="card">
+        <img src='./images/logo2_image.jpg' alt='avatar' width='250px' height='325px' id="moviePoster">
+        <p id='synopsis'>Movie Synopsis:</p>
+        <p id='year'>Release Date:</p>
+        <p id='cast'>Cast:</p>
+        <p id='director'>Director(s):</p>
+    </div>
 
-    <div>
-        <iframe id="trailer" width="490" height="280" src="https://www.youtube.com/embed/1Q8fG0TtVAY" frameborder="0" allowfullscreen ng-show="showvideo"></iframe>
+    <div class="theaterAndTrailerContainer">
+        <div class='trailer'>
+            <img src='./images/theater-seats.jpeg' alt='image of theater seats' width='800px'>
+        </div>
+
+        <div>
+            <iframe id="trailer" width="490" height="280" src="https://www.youtube.com/embed/1Q8fG0TtVAY"
+                frameborder="0" allowfullscreen ng-show="showvideo"></iframe>
+        </div>
     </div>
 </body>
 
 </html>
-

@@ -43,18 +43,25 @@ p {
   margin-right: 70em;
 }
 
-.trailer {
+.theaterAndTrailerContainer {
   position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.trailer {
+  position: absolute;
   object-fit: inherit;
-  margin-top: 15em;
-  margin-left: 33em;
+  margin-top: 9em;
+  margin-left: 22em;
   z-index: -1;
+  /* this is the theatre background */
 }
 
 #trailer {
-  position: absolute;
-  margin-top: -24%;
-  margin-left: 36%;
+  margin-top: 4%;
+  margin-left: 33%;
+  /*  this is the trailer  */
 }
 
 .formContainer {
