@@ -15,12 +15,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #fff;
+  background-color: #343a40;
 }
 
 /* styling below for the search feature of the webpage */
 header h1 {
-  color: #023047;
+  color: #fff;
   font-family: fantasy;
   font-weight: 900;
   font-size: 65px;
@@ -46,8 +46,15 @@ p {
 .trailer {
   position: relative;
   object-fit: inherit;
-  margin-top: 10em;
+  margin-top: 15em;
   margin-left: 33em;
+  z-index: -1;
+}
+
+#trailer {
+  position: absolute;
+  margin-top: -24%;
+  margin-left: 36%;
 }
 
 .formContainer {
