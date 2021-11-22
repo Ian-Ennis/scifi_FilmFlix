@@ -21,14 +21,12 @@ function handleSubmit(e) {
     .then(tMDBdata => {
       const synopsis = document.getElementById("synopsis").innerText = `Synopsis: ${tMDBdata.results[0].overview}`;
       const movieID = tMDBdata.results[0].id;
-      console.log(movieID)
       const keyGrabber = `https://api.themoviedb.org/3/movie/${movieID}/videos?api_key=c0d223e63c9747fda47653e647837001&language=en-US`
 
       fetch(keyGrabber)
         .then(res => res.json())
         .then(data => {
           const key = data.results[0].key;
-          console.log(key)
           trailerSource.src = `https://www.youtube.com/embed/${key}`
         })
 
